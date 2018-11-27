@@ -17,7 +17,7 @@ m.drawcoastlines()
 m.drawcountries()
 m.drawstates()
 lats, lons = [], []
-with open('/Users/usmp/Google Drive/Saidur_Matt_Term_Project/Montana_All_Data.csv') as f:
+with open('/Users/usmp/Google Drive/Saidur_Matt_Term_Project/Gallatin_notowns_All_Data.csv') as f:
     reader = csv.reader(f)
     next(reader) # Ignore the header row.
     for row in reader:
